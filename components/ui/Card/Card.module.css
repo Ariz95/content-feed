@@ -1,0 +1,46 @@
+.card {
+  color: white;
+  border-radius: 25px;
+  max-width: 400px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-transform: capitalize;
+  min-height: 200px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.content {
+  word-wrap: break-word;
+}
+
+.comments {
+  margin-top: 3rem;
+}
+
+.modal-button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modal-button:hover {
+  background-color: #fff;
+  color: #000;
+}

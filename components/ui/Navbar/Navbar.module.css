@@ -1,0 +1,18 @@
+.navbar {
+  height: 54px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0 2rem;
+}
+
+.navbar img {
+  width: 42px;
+  height: auto;
+  margin-right: 0.5rem;
+}

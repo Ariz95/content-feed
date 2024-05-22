@@ -1,0 +1,26 @@
+.comments {
+  padding: 0.5rem;
+}
+
+.comment {
+  display: flex;
+  border: solid 1px black;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.comment img {
+  width: 100px;
+  height: 100px;
+  margin-right: 0.5rem;
+  border-radius: 1rem 0 0 1rem;
+  overflow: hidden;
+}
+
+.text {
+  padding: 0.5rem 0;
+}
+
+.description {
+  margin-top: 10px;
+}

@@ -1,0 +1,1 @@
+export const baseUrl = "https://stoplight.io/mocks/engine/fullstack-spec/52502230/content"
